@@ -48,7 +48,7 @@ function better_rest_api_featured_images_init() {
 
 		// Only proceed if the post type is set to be accessible over the REST API
 		// and supports featured images.
-		if ( $show_in_rest && $supports_thumbnail ) {
+// 		if ( $show_in_rest && $supports_thumbnail ) {
 
 			// Compatibility with the REST API v2 beta 9+
 			if ( function_exists( 'register_rest_field' ) ) {
@@ -68,7 +68,7 @@ function better_rest_api_featured_images_init() {
 					)
 				);
 			}
-		}
+// 		}
 	}
 }
 
